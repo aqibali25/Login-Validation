@@ -107,8 +107,7 @@ function signup() {
   }
 }
 if (
-  window.location.href.includes("index.html") ||
-  window.location.href.includes("index")
+  window.location.href.includes("index.html")
 ) {
   checkLoginStatus();
 }
