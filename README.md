@@ -1,2 +1,4 @@
 # Login-Validation
-This project securely manages user sign-up data in local storage. During login, the system checks if the user has signed up; if so, access is granted with redirection to the dashboard. Attempts to directly access the dashboard without logging in result in redirection to the login page, ensuring authentication.
+The project involves securely managing user sign-up data through local storage. During login, the system verifies whether a user has previously signed up. If confirmed, access is granted, redirecting the user to the dashboard. Conversely, if a user attempts to access the dashboard directly without logging in, redirection to the login page is enforced.
+
+Additionally, while a user is logged in, attempts to navigate to the signup or login pages are restricted to maintain security and prevent unauthorized access. This mechanism ensures a seamless and secure user experience. The implementation emphasizes data integrity and user authentication, promoting a robust user management system. The system fosters a user-centric approach, enhancing the overall security and accessibility of the application.
