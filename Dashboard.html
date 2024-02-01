@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="menu-btn" id="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+      <div class="close" id="close">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <div class="navLinks" id="navLinks">
+        <span id="test"></span>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="profile">
+        <img src="Images/profile.jpg" alt="Profile" onclick="show()" />
+        <div class="dropdown-content" id="dropdown">
+          <a href="#">Settings</a>
+          <a href="#">Terms</a>
+          <a href="#" id="logout" onclick="logout()">Logout</a>
+        </div>
+      </div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
