@@ -10,6 +10,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: 80px;
+  z-index: 1;
 }
 .navLinks {
   display: block;
@@ -46,7 +47,7 @@ body {
 .profile img {
   width: 60px;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 10;
   cursor: pointer;
 }
 .profile .dropdown-content {
